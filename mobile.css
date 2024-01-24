@@ -1,0 +1,75 @@
+.btn{
+  left: 60px;
+}
+nav a { 
+  padding: 2px; 
+}
+nav li{
+  display:inline-block;
+}
+.rowfoot{
+    display: block;
+    text-align: start;
+    padding: 0px;
+}
+.contact{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+form{
+  background-color: aliceblue;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10px;  
+}
+.certi{
+    display: inline;
+}
+.certification {
+    background:url(images/SF-BG.webp) no-repeat center center ;
+    border-radius: 25px;
+    margin: 0px;
+}
+.pad img{
+  width: 25%;
+}
+.pad{
+    padding:0px;
+}
+.certification h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:20px;
+}
+.certi span { 
+    display: none; 
+} 
+.certi a{
+    padding: 20px;
+}
+.certi a:hover span { display: none;
+  
+}
+textarea{
+    height: 3em;
+    width: 20em;
+  }
+
+  video{
+    padding-left:2px;
+    height: 100px;
+    width:150px;
+  }
+  audio{
+    height: 100px;
+    width:150px;
+  }
+  .contact h3{
+    left: 0px;
+  }
+  .aboutme{
+    height: 212px;
+  }
+  .navcontact{
+    clear: both;
+  }
+  

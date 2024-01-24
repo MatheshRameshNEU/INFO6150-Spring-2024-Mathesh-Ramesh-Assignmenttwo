@@ -1,0 +1,267 @@
+body{
+    background-color: black;
+}
+.bla{
+    color: #111;
+    position:fixed;
+    top: 50%;
+    background: #fff;
+    box-shadow: rgba(100,100,111,.2) 0 7px 29px 0;
+    padding: 0.5rem;
+    
+}
+
+.bla li{
+    list-style-type: none;
+}
+nav {
+    float: right;
+}
+nav a { 
+    text-decoration: none; 
+	padding: 20px; 
+    color: azure;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 21px;
+    font-family: Mova;
+    cursor:pointer;
+
+    
+}
+nav li{
+    display: inline-block;
+}
+main{
+    clear: right;
+    color: aliceblue;
+}
+#intro{
+    /*background:url(images/IMG_0817.png.png) no-repeat center center ; */
+    background-color: aliceblue;
+    padding-top: 200px;
+    padding-bottom: 150px;
+    
+}
+.name{
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #111;
+    font-weight: 800;
+}
+.btn {
+    background-color: rgb(99, 103, 107);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    position:relative;
+    left: 600px;
+  }
+#intro p{
+    color:rgb(21, 21, 21);
+    text-align: center;
+
+}
+
+#intro ul{
+    position: fixed;
+}
+.photo{
+    float:left;
+    padding-left: 200px;
+}
+.name{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: Poppins,sans-serif;
+}
+.certi{
+    display: inline;
+}
+.certification {
+    background:url(images/SF-BG.webp) no-repeat center center ;
+    border-radius: 25px;
+    margin: 1px;
+    padding-bottom: 200px;
+    
+}
+.pad{
+    padding-left:100px;
+}
+.certification h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:20px;
+}
+
+.certi span { 
+    display: none; 
+} 
+.certi a{
+    padding: 20px;
+    
+}
+.certi a:hover span { display: block; 
+    position: absolute;
+    top: 750px; 
+    left: 950px; 
+    text-align: center; 
+    
+}
+figcaption{
+    color: aliceblue;
+}
+.educationone{
+    background-color:rgba(93, 87, 87, 0.26);
+    border-radius: 25px;
+    margin: 10px;
+    padding: 2.5%;
+}
+table tr{
+    color: blanchedalmond;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+table tr:nth-child(2),tr:last-child{
+    text-align: center;
+   
+}
+
+
+.menu{
+    background: url(images/expbg1.webp) ;
+    border-radius: 25px;
+    padding: 2.5%;
+
+    
+}
+menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction:column;
+    padding: 0;
+    margin-bottom: 0;
+    gap: 2em;
+    color: black;
+  }
+  .rowmenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+  }
+  .logos{
+    list-style-type: none;
+    display: inline;
+  }
+  .sym{
+    display: inline;
+    padding: 5px;
+  }
+
+
+  textarea{
+    height: 5em;
+    width: 30em;
+  }
+  .columnone{
+    padding-top:80px;
+  }
+  
+  .sym{
+    padding: 10px;
+  }
+
+  footer{
+    text-align: center;
+    color: azure;
+  }
+  .container {
+    display: flex; 
+  }
+  
+  .column {
+    flex:1;
+  }
+  
+  .column:first-child {
+    background-color:  rgb(79, 76, 76);
+    border-radius: 10% 0% 0% 10%;
+  }
+  
+  .column:last-child {
+    background-color:  rgb(79, 76, 76);
+    border-radius: 0% 10% 10% 0%;
+    
+  }
+  .aboutme {
+    padding: 15px;
+    width: auto;
+    height: 500px;
+    overflow: scroll;
+    color: #fff;
+  
+  }
+  video{
+    padding-left: 50px;
+  }
+  .contact{
+    background-color: aliceblue;
+    border-radius: 25px;
+
+}
+.contact h2,h3,h4,p {
+    color: #111;
+}
+.contact h2{
+    text-align: center;
+    font-weight: 400;
+    font-style: italic;
+    padding-top: 20px;
+    font-family: Slab, serif;
+}
+.contact p{
+    text-align: center;
+}
+
+#navcontact a{
+    color: rgb(15, 15, 111);
+}
+.footintro{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 10px;
+    top: 40px;
+}
+  /* Clear floats after the columns */
+  .rowfoot:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  form{
+    padding-left: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+form label{
+    color: black;
+    font-size: x-large;
+    font-family: Roboto Slab, serif;
+    -webkit-font-smoothing: antialiased;
+}
+form input{
+    text-align: center;
+    
+}
+
+  
+
+
+
