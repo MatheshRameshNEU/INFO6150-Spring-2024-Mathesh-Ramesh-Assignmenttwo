@@ -39,6 +39,28 @@ Webpage full content inside the html file
             <label>,<input> to capture label and value
 <footer>
     added copyright content with h5 tag
+
+##index.CSS
+included css content for the webpage
+tags used
+color: to color the content
+background: to add bg of the section or page
+position: to place the component in place , used fixed to fix the follow on, used absolute for certification hover, relative for content placing in middle
+list-style-type: used this to remve the bullet on li
+text-decoration: used this to remove underline on ul.
+font-size,family,align- to modify the default font as per the req.
+clear: will clear the blank space and used this before starting new component.
+padding: for space around the comp.
+float property will make the content float on some side of the page
+overflow: to control the overflow of the content used this on aboutme section
+
+
+
+##mobile.css
+contains css changes related to mobile dimensions
+##ipad.css
+contains css changes related to ipad dimensions
+
         
 
 
