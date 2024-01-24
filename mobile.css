@@ -1,6 +1,9 @@
 .btn{
   left: 60px;
 }
+#intro img{
+  left:50px;
+}
 nav a { 
   padding: 2px; 
 }
