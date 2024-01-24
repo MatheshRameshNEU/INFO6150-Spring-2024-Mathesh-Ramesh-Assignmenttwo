@@ -86,6 +86,7 @@ main{
     background:url(images/SF-BG.webp) no-repeat center center ;
     border-radius: 25px;
     margin: 1px;
+    padding-top:25px;
     padding-bottom: 200px;
     
 }
@@ -149,6 +150,10 @@ menu {
     gap: 2em;
     color: black;
   }
+menu span{
+    font-size:large; 
+    color:rgb(55, 85, 125);
+}
   .rowmenu{
     display: flex;
     flex-direction: row;
