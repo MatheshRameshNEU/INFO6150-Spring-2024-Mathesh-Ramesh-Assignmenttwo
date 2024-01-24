@@ -38,8 +38,9 @@ main{
 }
 #intro{
     /*background:url(images/IMG_0817.png.png) no-repeat center center ; */
-    background-color: aliceblue;
-    padding-top: 200px;
+    
+    background:url(images/bgintro.avif);
+    padding-top: 50px;
     padding-bottom: 150px;
     
 }
@@ -60,6 +61,10 @@ main{
     font-size: 20px;
     position:relative;
     left: 600px;
+  }
+#intro img {
+    position:relative;
+    left: 550px;
   }
 #intro p{
     color:rgb(21, 21, 21);

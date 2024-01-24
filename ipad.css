@@ -1,6 +1,9 @@
 .btn{
     left: 250px;
-  }
+}
+#intro img{
+    left:250px;
+}
   form{
     background-color: aliceblue;
     padding-top: 50px;
